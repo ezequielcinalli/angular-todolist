@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-todotasklist": {
+      "hosting": {
+        "angular-todolist": [
+          "angular-todotasklist"
+        ]
+      }
+    }
+  }
+}

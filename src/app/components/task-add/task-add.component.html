@@ -1,0 +1,10 @@
+<h1>Agregar nueva tarea</h1>
+<form (ngSubmit)="add()">
+    <label for="title">Titulo:</label>
+    <input type="text" name="title" class="form-control" [(ngModel)]="task.title">
+
+    <label for="description">Descripcion:</label>
+    <input type="text" name="description" class="form-control" [(ngModel)]="task.description">
+
+    <button type="submit" class="btn btn-success btn-block mt-3">Agregar</button>
+</form>
