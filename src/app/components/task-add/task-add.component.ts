@@ -9,7 +9,7 @@ import { ConnectionService } from 'src/app/services/connection.service';
 })
 export class TaskAddComponent implements OnInit {
 
-  task:Task = {
+  task:any = {
     title:'',
     description: ''
   }

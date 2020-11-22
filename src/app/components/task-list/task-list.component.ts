@@ -9,11 +9,10 @@ import { ConnectionService } from 'src/app/services/connection.service';
 })
 export class TaskListComponent implements OnInit {
   tasks:Task[];
-  taskToEdit: Task = {
-    id: '',
-    title: '',
-    description: ''
-  }
+  taskToEdit: any = {
+    title:'',
+    description:''
+  };
   
   constructor(private connection:ConnectionService) { 
     this.connection.getTasks().subscribe(tasks => {
