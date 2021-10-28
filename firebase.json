@@ -3,11 +3,7 @@
     {
       "target": "angular-todolist",
       "public": "dist/angular-todolist",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {
           "source": "**",
@@ -17,10 +13,8 @@
     },
     {
       "target": "angular-todolist",
-      "public": "dist/angular-todolist",
-      "ignore": [
-        "**/.*"
-      ],
+      "public": "docs/",
+      "ignore": ["**/.*"],
       "headers": [
         {
           "source": "*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].+(css|js)",
