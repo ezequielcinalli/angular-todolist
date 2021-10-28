@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "angular-todolist",
-      "public": "dist/angular-todolist",
+      "public": "docs/",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
       "rewrites": [
         {
